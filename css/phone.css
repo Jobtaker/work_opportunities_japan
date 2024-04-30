@@ -1,0 +1,286 @@
+/* Navigation */
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 6px;
+    padding-bottom: 8px;
+
+
+}
+
+/* Home Section */
+#home h1 {
+    font-size: 1.rem;
+}
+
+
+#home {
+    height: 370px;
+    /* flex-direction: column; */
+    padding: 3px 28px;
+
+}
+
+/* #home::before {
+    height: 370px;
+    flex-direction: column;
+
+} */
+
+#home p {
+    font-size: 16px;
+    text-align: center;
+
+
+}
+
+#home h1 {
+    text-align: center;
+}
+
+
+/* Services section */
+#services {
+    flex-direction: column;
+
+}
+
+#services.box {
+    padding: 14px;
+    margin: 2px 55px;
+    margin-bottom: 20px;
+
+}
+
+/* #services .box img{
+    height: 70px; 
+
+} */
+#services-container h1 {
+    text-align: center;
+    
+}
+
+#services-container #services .box1 img {
+    width: 260px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    
+}
+#services-container #services  .box2 img {
+    width: 260px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    
+}
+#services-container  #services  .box3 img {
+    width: 260px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    
+}
+
+
+
+#services-container #services {
+  
+      text-align: center;
+
+}
+
+
+#services-container #services .box1 p{
+
+    margin-top: 40px;
+}
+#services-container #services .box2 p{
+
+    margin-top: 60px;
+}
+
+#services-container #services .box3 p{
+
+    margin-top: 40px;
+}
+
+#services-container #services h2{
+
+ margin-top: 30px ;   
+ color:blueviolet
+}
+
+
+/* Client Section*/
+
+#clients {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+#clients .client-item1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 200px;
+    height: auto;
+
+}
+
+#clients .client-item2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 30px;
+    width: 200px;
+    height: auto;
+
+}
+
+#clients .client-item3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 200px;
+    height: auto;
+
+}
+
+#clients .client-item4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 200px;
+    height: auto;
+
+
+}
+
+#clients .client-item5 img {
+    display: block;
+    width: 200px;
+    margin-top: 30px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+
+
+
+
+#client-section>h1 {
+    text-align: center;
+}
+
+
+
+
+/* Footer Section */
+
+/* Utility classes */
+.h-primary {
+    font-size: 23px;
+    padding: 57.1px;
+
+}
+
+
+
+
+.client-section .clients #client-item1 img {
+
+    border: 5px solid red;
+}
+
+
+
+.h-secondry {
+    font-size: 1.4rem;
+
+}
+
+/* .btn{
+    font-size: 13px;
+    padding:1px 25px; */
+
+/* margin:30px; */
+/* margin: 233px;
+    margin-top: 20px;
+    background-color: brown;
+    
+
+
+
+} */
+
+
+/* contact */
+
+#contact h1{
+text-align: center;
+font-size: 30px;
+
+}
+
+/* Input style */
+#contact input[type="text"],
+input[type="email"],
+input[type="phone"],
+
+textarea {
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 36%;
+    
+} 
+
+
+
+  input[type="phone"]{
+    margin-left: 31.9%;
+    
+} 
+
+ input[type="button"]{
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 50%px;
+    position: relative;
+    top: 30px;
+    left: auto;
+    width: 95px;
+}
+
+.center{
+    margin-top: 70px;
+    color: solid black;
+
+}
